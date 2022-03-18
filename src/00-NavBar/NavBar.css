@@ -1,0 +1,15 @@
+:root {
+  --color1: rgba(20, 20, 20, 1);
+  --color2: rgba(255, 255, 255, 1);
+  --color3: rgba(255, 157, 0, 1);
+}
+
+#NavBar {
+  background-color: var(--color1);
+  color: var(--color2);
+}
+
+a {
+  color: var(--color2);
+  text-decoration: none;
+}
