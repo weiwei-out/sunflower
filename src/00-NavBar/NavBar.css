@@ -1,15 +1,75 @@
-:root {
-  --color1: rgba(20, 20, 20, 1);
-  --color2: rgba(255, 255, 255, 1);
-  --color3: rgba(255, 157, 0, 1);
-}
-
 #NavBar {
   background-color: var(--color1);
   color: var(--color2);
+  display: flex;
+
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 a {
   color: var(--color2);
   text-decoration: none;
+}
+
+#Logo {
+  flex: 1;
+}
+
+#Tab {
+  display: flex;
+  padding-right: 2vw;
+}
+
+#Tab div {
+  flex-wrap: nowrap;
+  flex: 1;
+  position: relative;
+  /* background-color: aqua; */
+}
+
+.NavButton {
+  width: 7rem;
+  text-align: center;
+}
+
+.NavButton:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 0%;
+  height: 2px;
+  background: var(--color3);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.NavButton:after {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 100%;
+  width: 0%;
+  height: 2px;
+  background: var(--color3);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.NavButton:hover {
+  color: var(--color3);
+}
+
+.NavButton:hover:before {
+  right: 0;
+  width: 2.5vw;
+}
+
+.NavButton:hover:after {
+  left: 0;
+  width: 2.5vw;
+}
+
+#OCD {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
