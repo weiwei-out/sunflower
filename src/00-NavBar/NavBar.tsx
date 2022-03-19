@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <div id="NavBar">
       <div id="Logo">
-        <Link to="/">Home</Link>
+        <Link to="/">a/w</Link>
       </div>
       <div id="Tab">
         <div>
@@ -13,6 +13,8 @@ function NavBar() {
             <p className="NavButton">portfolio</p>
           </Link>
         </div>
+        <div id="OCD1"></div>
+
         <div>
           <Link to="about">
             <p id="OCD" className="NavButton">
@@ -20,6 +22,7 @@ function NavBar() {
             </p>
           </Link>
         </div>
+        <div id="OCD2"></div>
         <div>
           <p className="NavButton">contact</p>
         </div>

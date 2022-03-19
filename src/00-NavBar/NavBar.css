@@ -1,3 +1,7 @@
+:root {
+  --length: 1.5rem;
+}
+
 #NavBar {
   background-color: var(--color1);
   color: var(--color2);
@@ -14,23 +18,26 @@ a {
 
 #Logo {
   flex: 1;
+  font-size: var(--length);
+  padding-left: 3vw;
 }
 
 #Tab {
   display: flex;
-  padding-right: 2vw;
+  padding-right: 3vw;
 }
 
 #Tab div {
   flex-wrap: nowrap;
   flex: 1;
   position: relative;
-  /* background-color: aqua; */
 }
 
 .NavButton {
-  width: 7rem;
+  width: calc(5.5 * var(--length));
+  /* width: 6rem; */
   text-align: center;
+  font-size: var(--length);
 }
 
 .NavButton:before {
@@ -61,15 +68,20 @@ a {
 
 .NavButton:hover:before {
   right: 0;
-  width: 2.5vw;
+  width: calc(2.75 * var(--length));
 }
 
 .NavButton:hover:after {
   left: 0;
-  width: 2.5vw;
+  width: calc(2.75 * var(--length));
 }
 
-#OCD {
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+#OCD1 {
+  flex: 1;
+  margin-left: 3rem;
+}
+
+#OCD2 {
+  flex: 1;
+  margin-left: 2rem;
 }
