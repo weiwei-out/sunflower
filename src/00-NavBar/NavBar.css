@@ -14,18 +14,37 @@ a {
   max-width: 100%;
   overflow-x: hidden;
   padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-bottom: 4vh;
+  width: 100vw;
 }
 
 #Logo {
   width: 6rem;
   text-align: center;
   font-size: var(--length);
+  /* margin-right: 30vw; */
+  margin-left: 3rem;
+}
+
+#Logo {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 50%;
+  border: 0.1rem solid;
+  border-color: var(--color2);
+  font-size: var(--length);
+  color: var(--color2);
+  text-align: center;
+  background: var(--color1);
+  margin-right: 2rem;
 }
 
 #Tab {
   display: flex;
   padding-right: 3rem;
+  margin-left: auto;
+  justify-content: space-between;
 }
 
 #Tab div {
@@ -40,6 +59,10 @@ a {
   text-align: center;
   font-size: var(--length);
   /* background-color: aqua; */
+  position: relative;
+  margin-top: 1.8rem;
+  padding-top: 0.8rem;
+  padding-bottom: 1rem;
 }
 
 .NavButton:before {

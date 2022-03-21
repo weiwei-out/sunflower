@@ -4,12 +4,12 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div id="NavBar">
+      <div>
+        <Link to="/">
+          <p id="Logo">a/w</p>
+        </Link>
+      </div>
       <div id="Tab">
-        <div>
-          <Link to="/">
-            <p id="Logo">a/w</p>
-          </Link>
-        </div>
         <div>
           <Link to="portfolio">
             <p className="NavButton">portfolio</p>
