@@ -1,7 +1,3 @@
-:root {
-  --length: 1.2rem;
-}
-
 a {
   color: var(--color2);
   text-decoration: none;

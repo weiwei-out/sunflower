@@ -5,6 +5,8 @@
   --color3dark: rgba(178, 97, 0, 1);
   --color4: rgba(117, 159, 56, 1);
   --color4dark: rgba(79, 108, 37, 1);
+
+  --length: 1.3rem;
 }
 
 body {

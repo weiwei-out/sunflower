@@ -4,3 +4,18 @@
   height: 100%;
   width: 100%;
 }
+
+#HomePage div {
+  font-size: calc(2.7 * var(--length));
+}
+
+#Hi {
+  padding-top: 5rem;
+  margin-left: 3rem;
+}
+
+#About {
+  padding-top: 5rem;
+  margin-left: 3rem;
+  max-width: 35%;
+}
