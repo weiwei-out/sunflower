@@ -10,11 +10,28 @@
 }
 
 body {
+  background-color: var(--color1);
   height: 100vh;
   width: 100vw;
+  /* width: 50%; */
+  /* max-width: 50vw; */
   margin: 0;
   /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     "Helvetica"; */
   font-family: "Courier New";
   display: flex;
+  overflow-x: hidden;
+}
+
+#App {
+  max-width: 2000px;
+  /* align-items: center; */
+  /* width: 50%; */
+  height: 100%;
+}
+
+#Background {
+  margin: 0px auto;
+  height: 100vh;
+  width: 100vw;
 }

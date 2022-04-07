@@ -14,12 +14,11 @@ a {
   width: 100vw;
 }
 
-#Logo {
-  width: 6rem;
-  text-align: center;
-  font-size: var(--length);
-  /* margin-right: 30vw; */
-  margin-left: 3rem;
+#marginControl {
+  max-width: 5rem;
+  min-width: 2rem;
+  width: 8vw;
+  margin-right: vw;
 }
 
 #Logo {
@@ -27,7 +26,7 @@ a {
   height: 4rem;
   line-height: 4rem;
   border-radius: 50%;
-  border: 0.1rem solid;
+  border: 0.15rem solid;
   border-color: var(--color2);
   font-size: var(--length);
   color: var(--color2);

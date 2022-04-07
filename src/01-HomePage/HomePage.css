@@ -3,19 +3,24 @@
   color: var(--color2);
   height: 100%;
   width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#HomePage div {
-  font-size: calc(2.7 * var(--length));
+#left {
+  flex: 14;
+  flex-wrap: wrap;
 }
 
-#Hi {
-  padding-top: 5rem;
-  margin-left: 3rem;
+#right {
+  flex: 8;
+  /* align-self: flex-start; */
 }
 
-#About {
-  padding-top: 5rem;
-  margin-left: 3rem;
-  max-width: 35%;
+#sunflower {
+  /* transform: scale(1); */
+  max-height: 100%;
+  /* -webkit-transform: scale(1); */
+  /* padding-right:  */
 }

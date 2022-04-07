@@ -4,6 +4,7 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div id="NavBar">
+      <div id="marginControl" />
       <div>
         <Link to="/">
           <p id="Logo">a/w</p>
@@ -29,6 +30,7 @@ function NavBar() {
           <p className="NavButton">contact</p>
         </div>
       </div>
+      <div id="marginControl" />
     </div>
   );
 }
